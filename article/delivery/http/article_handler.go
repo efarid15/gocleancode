@@ -2,7 +2,9 @@ package http
 
 import (
 	"github.com/labstack/echo"
+	"github.com/sirupsen/logrus"
 	"gocleancode/domain"
+	validator "gopkg.in/go-playground/validator.v9"
 	"net/http"
 	"strconv"
 )

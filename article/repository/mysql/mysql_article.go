@@ -4,6 +4,8 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"github.com/sirupsen/logrus"
+	"gocleancode/article/repository"
 	"gocleancode/domain"
 )
 
